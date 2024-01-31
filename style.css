@@ -16,11 +16,11 @@ h1 {
     position:absolute;
     left:120px;
     top:0;
-    line-height: 80px;
-    background-image:url(images/logo.svg) ;
+    line-height: 100px;
+    background-image:url(images/lotus.svg) ;
     background-repeat: no-repeat;
     background-position: center;
-    width:210px;
+    width:200px;
     text-indent: -9999px; 
 }
 header ul {
@@ -40,7 +40,8 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
-.news {
+
+.app {
     background-color: antiquewhite;
     color:white;
     height:95vh;
@@ -53,15 +54,21 @@ header a:hover {
     align-items: center;
     justify-content: center;
 } 
-.news h2 {
+.app h2 {
     font-size:60px;
     margin-top:60px;
 } 
-.news p {
-    color:#FEF7E6;
-    font-size:18px;
-    margin:25px 0;
+
+.app h3 {
+    font-size: 32px;    
+    margin: 20px 0;
 }
+.app p {
+    font-size:24px;
+    line-height: 1.6em;
+    margin: 20px 0;
+}
+
 .news a {
     color:white;
     text-decoration: none;
